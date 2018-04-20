@@ -1,0 +1,41 @@
+
+<form id="1576549990">
+<property name="name" value="WSGAction2-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="IsWSGActionComplete" type="CheckBox" id="1495097041">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;wsgaction_out (IsWSGActionComplete)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="wsgaction_out"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="TicketSummary_action" type="InputText" id="1463902303">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;action (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/action"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="TicketSummary_well" type="InputText" id="912631860">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;well (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/well"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="wsgactioncomments" type="InputText" id="958721799">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;wsgactioncomments_out (wsgactioncomments)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="wsgactioncomments_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="wsgaction_out" value="java.lang.Boolean" id="IsWSGActionComplete"/>
+<dataHolder inputId="ticket_in" name="#A7E690" type="dataModelerEntry" outId="" value="kocfdunit.kocfdproject.kocfdpackage.OptimizationDO" id="TicketSummary"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="wsgactioncomments_out" value="java.lang.String" id="wsgactioncomments"/>
+</form>
